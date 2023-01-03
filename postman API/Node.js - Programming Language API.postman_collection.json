@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "e228f79c-771b-4762-8ffd-0dab47f57392",
+		"name": "Node.js - Programming Language API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24571367"
+	},
+	"item": [
+		{
+			"name": "INSERT - programming-languages",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/programming-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"programming-languages"
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE - programming-languages",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"dart\", \"released_year\": 2011, \"githut_rank\": 12, \"pypl_rank\": 20, \"tiobe_rank\": 25}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/programming-languages/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"programming-languages",
+						"17"
+					]
+				},
+				"description": "PUT"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - programming-languages",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/programming-languages/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"programming-languages",
+						"17"
+					]
+				},
+				"description": "DELETE"
+			},
+			"response": []
+		}
+	]
+}
