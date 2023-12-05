@@ -7,7 +7,7 @@
 </div>
 <br>
 <p align="center">
-    <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-8.3-4479A1?style=for-the-badge&logo=mysql" alt="MySql Badge" /></a>
+    <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-8.3-4479A1?style=for-the-badge&logo=mysql" alt="MySQL Badge" /></a>
     <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-23.3.0-339933?style=for-the-badge&logo=nodedotjs" alt="Node.js Badge" /></a>
     <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express-4.18.2-000000?style=for-the-badge&logo=express" alt="Express Badge" /></a>
     <a href="https://www.postman.com/"><img src="https://img.shields.io/badge/Postman-10.20-FF6C37?style=for-the-badge&logo=postman" alt="Postman Badge" /></a>
