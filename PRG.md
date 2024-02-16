@@ -14,8 +14,8 @@ This file is used to connect this repository to the **PRG** project categorizati
 
 **Repository Tier:** Bronze <br>
 **Technology:** MySQL, Node.js, Express, Postman <br>
-**Category:** API, Database <br>
-**Order:** 0 <br>
+**Category:** API, DBMS, Database <br>
+**Order:** 31 <br>
 
 ## Parameters
 
